@@ -1,4 +1,6 @@
 # VSCODE Spacemacs Theme
+https://github.com/dzannotti/vscode-theme-spacemacs
+
 ## Why?
 I **love** the way spacemacs looks, however the intellisense in vscode is better than the emacs/spacemacs one, but why leave behind the coloring?
 
