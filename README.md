@@ -11,14 +11,23 @@ shift+cmd+p + install extension -> search for Spacemacs Theme
 
 **Enjoy!**
 
-## My font don't look like yours
-I use [Fira Code](https://github.com/tonsky/FiraCode)
-
 ## TODO
 Add support for:
 * json
 * xml
 * markdown
+
+## FAQ
+
+### My font don't look like yours
+I use [Fira Code](https://github.com/tonsky/FiraCode)
+
+### Need another language support?
+Since I tried to detail as much as possible, i decided not to generalize languages/tokens
+Send a PR or open an issue
+
+### I noticed some colors are off
+Feel free to report the issue to investigate, sadly most of the times it's due to wrong tokenization by vscode itself
 
 ## Licence
 The code in this repo is distributed under MIT Licence
