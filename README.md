@@ -14,6 +14,12 @@ shift+cmd+p + install extension -> search for Spacemacs Theme
 ## My font don't look like yours
 I use [Fira Code](https://github.com/tonsky/FiraCode)
 
+## TODO
+Add support for:
+* json
+* xml
+* markdown
+
 ## Licence
 The code in this repo is distributed under MIT Licence
 
