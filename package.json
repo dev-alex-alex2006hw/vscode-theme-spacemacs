@@ -2,7 +2,7 @@
   "name": "theme-spacemacs",
   "displayName": "Spacemacs Theme",
   "description": "Spacemacs Theme",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "dzannotti",
   "engines": {
     "vscode": "*"
@@ -25,7 +25,8 @@
   },
   "icon": "images/spacemacs.svg",
   "galleryBanner": {
-    "color": "#ffffee"
+    "color": "#0B1A2F",
+    "theme": "dark"
   },
   "public": true,
   "contributes": {
