@@ -262,14 +262,101 @@
   settings:
     foreground: const
 
-
-
-
-
-
-
-
-
+## JS (Babel)
+-
+  name: Comments
+  scope: >
+    token.comment.definition.double-slash.js.line.punctuation.jsx,
+    token.comment.double-slash.js.line.jsx,
+    token.block.comment.js.jsx,
+    token.block.comment.definition.js.punctuation.jsx
+  settings:
+    foreground: comment
+-
+  name: Keywords
+  scope: >
+    token.arrow.function.js.meta.static.storage.type.jsx,
+    token.asterisk.body.class.function.generator.js.keyword.meta.method.jsx,
+    token.body.class.function.js.meta.method.storage.type.jsx,
+    token.body.class.js.meta.modifier.storage.jsx,
+    token.braces.conditional.control.curly.group.js.keyword.meta.jsx,
+    token.braces.constructor.curly.group.instance.js.keyword.meta.new.operator.jsx,
+    token.braces.control.curly.flow.group.js.keyword.meta.jsx,
+    token.braces.control.curly.for.group.js.keyword.loop.meta.jsx,
+    token.braces.control.curly.group.js.keyword.meta.trycatch.jsx,
+    token.class.extends.js.meta.storage.type.jsx,
+    token.class.js.meta.storage.type.jsx,
+    token.control.for.js.keyword.loop.meta.jsx,
+    token.control.js.keyword.module.jsx,
+    token.flowtype.support.type.jsx,
+    token.js.storage.type.jsx
+  settings:
+    fontStyle: bold
+    foreground: keyword
+-
+  name: Variables
+  scope: >
+    token.accessor.class.element.entity.js.keyword.meta.operator.property.quasi.string.jsx,
+    token.class.element.entity.js.meta.other.property.quasi.static.string.variable.jsx,
+    token.class.element.entity.js.meta.other.property.quasi.string.variable.jsx,
+    token.element.entity.js.other.quasi.readwrite.string.variable.jsx,
+    token.js.other.readwrite.variable.jsx,
+    token.flowtype.primitive.support.type.jsx
+  settings:
+    foreground: var
+-
+  name: Strings
+  scope: >
+    token.begin.definition.double.js.punctuation.quoted.string.jsx,
+    token.begin.definition.js.punctuation.quasi.string.jsx,
+    token.begin.definition.js.punctuation.quoted.single.string.jsx
+    token.definition.double.end.js.punctuation.quoted.string.jsx,
+    token.definition.end.js.punctuation.quasi.string.jsx,
+    token.definition.end.js.punctuation.quoted.single.string.jsx,
+    token.double.js.quoted.string.jsx,
+    token.double.js.quoted.string.jsx,
+    token.js.quasi.string.jsx,
+    token.js.quoted.single.string.jsx
+  settings:
+    foreground: str
+-
+  name: Values
+  scope: >
+    token.boolean.braces.constant.curly.false.group.js.language.meta.jsx,
+    token.boolean.braces.constant.curly.true.group.js.language.meta.jsx,
+    token.boolean.constant.js.language.false.jsx,
+    token.boolean.constant.js.language.true.jsx,
+    token.braces.constant.curly.group.js.language.meta.null.jsx,
+    token.braces.constant.curly.group.js.language.meta.undefined.jsx,
+    token.builtin.flowtype.primitive.support.type.jsx,
+    token.constant.js.numeric.jsx
+  settings:
+    foreground: const
+-
+  name: Function name
+  scope: >
+    token.entity.function.js.meta.name.jsx
+  settings:
+    fontStyle: bold
+    foreground: func
+-
+  name: Function parameter
+  scope: >
+    token.function.js.meta.other.readwrite.variable.jsx
+  settings:
+    foreground: const
+-
+  name: DOM Object
+  scope: >
+    token.braces.curly.dom.group.js.meta.object.round.support.type.jsx
+  settings:
+    foreground: comp
+-
+  name: Prototype
+  scope: >
+    token.access.js.language.meta.prototype.variable.jsx
+  settings:
+    foreground: head1
 
 
 

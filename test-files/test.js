@@ -1,3 +1,9 @@
+import foo from 'bar'
+import bar from "bar"
+
+const bar = 23
+let foo = 'bar'
+
 // Cross-browser xml parsing
 var parseXML = function( data ) {
   var xml, tmp;
@@ -22,7 +28,11 @@ var parseXML = function( data ) {
   return xml;
 };
 
-function fooBar(asd) {
+type foo {
+  bar: number
+}
+
+function fooBar(asd : string) {
 
 }
 

@@ -7,7 +7,7 @@ I **love** the way spacemacs looks, however the intellisense in vscode is better
 ## What does it looks like?
 ![Like this](https://raw.githubusercontent.com/dzannotti/vscode-theme-spacemacs/master/screenshot.png "Screenshot")
 
-## Ok i'm sold how do i try it?
+## Ok I'm sold how do i try it?
 You can find it on VSCode Marketplace
 shift+cmd+p + install extension -> search for Spacemacs Theme
 
@@ -47,3 +47,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Spacemacs is licensed under GPL v3
 
 The original spacemacs theme does not have a licence https://github.com/nashamri/spacemacs-theme ¯\_(ツ)_/¯
+
+## Changelog
+0.0.5 - Added Javascript (Babel) support
+0.0.4 - Readme changes
+0.0.3 - Added JSON support and Refactor of theme generator
+0.0.2 - Readme changes
+0.0.1 - Initial release

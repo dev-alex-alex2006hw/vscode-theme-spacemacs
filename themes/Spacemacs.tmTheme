@@ -439,6 +439,118 @@
           <string>#a45bad</string>
         </dict>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>Comments</string>
+        <key>scope</key>
+        <string>token.comment.definition.double-slash.js.line.punctuation.jsx, token.comment.double-slash.js.line.jsx, token.block.comment.js.jsx, token.block.comment.definition.js.punctuation.jsx
+</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#2aa1ae</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keywords</string>
+        <key>scope</key>
+        <string>token.arrow.function.js.meta.static.storage.type.jsx, token.asterisk.body.class.function.generator.js.keyword.meta.method.jsx, token.body.class.function.js.meta.method.storage.type.jsx, token.body.class.js.meta.modifier.storage.jsx, token.braces.conditional.control.curly.group.js.keyword.meta.jsx, token.braces.constructor.curly.group.instance.js.keyword.meta.new.operator.jsx, token.braces.control.curly.flow.group.js.keyword.meta.jsx, token.braces.control.curly.for.group.js.keyword.loop.meta.jsx, token.braces.control.curly.group.js.keyword.meta.trycatch.jsx, token.class.extends.js.meta.storage.type.jsx, token.class.js.meta.storage.type.jsx, token.control.for.js.keyword.loop.meta.jsx, token.control.js.keyword.module.jsx, token.flowtype.support.type.jsx, token.js.storage.type.jsx
+</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>bold</string>
+          <key>foreground</key>
+          <string>#4f97d7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Variables</string>
+        <key>scope</key>
+        <string>token.accessor.class.element.entity.js.keyword.meta.operator.property.quasi.string.jsx, token.class.element.entity.js.meta.other.property.quasi.static.string.variable.jsx, token.class.element.entity.js.meta.other.property.quasi.string.variable.jsx, token.element.entity.js.other.quasi.readwrite.string.variable.jsx, token.js.other.readwrite.variable.jsx, token.flowtype.primitive.support.type.jsx
+</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7590db</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Strings</string>
+        <key>scope</key>
+        <string>token.begin.definition.double.js.punctuation.quoted.string.jsx, token.begin.definition.js.punctuation.quasi.string.jsx, token.begin.definition.js.punctuation.quoted.single.string.jsx token.definition.double.end.js.punctuation.quoted.string.jsx, token.definition.end.js.punctuation.quasi.string.jsx, token.definition.end.js.punctuation.quoted.single.string.jsx, token.double.js.quoted.string.jsx, token.double.js.quoted.string.jsx, token.js.quasi.string.jsx, token.js.quoted.single.string.jsx
+</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#2d9574</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Values</string>
+        <key>scope</key>
+        <string>token.boolean.braces.constant.curly.false.group.js.language.meta.jsx, token.boolean.braces.constant.curly.true.group.js.language.meta.jsx, token.boolean.constant.js.language.false.jsx, token.boolean.constant.js.language.true.jsx, token.braces.constant.curly.group.js.language.meta.null.jsx, token.braces.constant.curly.group.js.language.meta.undefined.jsx, token.builtin.flowtype.primitive.support.type.jsx, token.constant.js.numeric.jsx
+</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a45bad</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Function name</string>
+        <key>scope</key>
+        <string>token.entity.function.js.meta.name.jsx
+</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>bold</string>
+          <key>foreground</key>
+          <string>#bc6ec5</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Function parameter</string>
+        <key>scope</key>
+        <string>token.function.js.meta.other.readwrite.variable.jsx
+</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a45bad</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>DOM Object</string>
+        <key>scope</key>
+        <string>token.braces.curly.dom.group.js.meta.object.round.support.type.jsx
+</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#c56ec3</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Prototype</string>
+        <key>scope</key>
+        <string>token.access.js.language.meta.prototype.variable.jsx
+</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4f97d7</string>
+        </dict>
+      </dict>
     </array>
   </dict>
 </plist>
