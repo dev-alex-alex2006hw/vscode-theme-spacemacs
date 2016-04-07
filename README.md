@@ -15,9 +15,13 @@ shift+cmd+p + install extension -> search for Spacemacs Theme
 
 ## TODO
 Add support for:
-* json
+* css
+* less
+* js
+* js babel
 * xml
 * markdown
+* yaml
 
 ## FAQ
 

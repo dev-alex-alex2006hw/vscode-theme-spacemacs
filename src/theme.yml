@@ -1,0 +1,129 @@
+### General Settings
+-
+  settings:
+    background: bg1
+    caret: mat
+    foreground: base
+    selection: highlight
+    lineHighlight: bg2
+
+### HTML
+-
+  name: Tag content
+  scope:
+    token
+  settings:
+    foreground: base
+-
+  name: Tag delimiter
+  scope: >
+    punctuation.definition.meta.tag.end.html,
+    punctuation.definition.meta.tag.begin.html
+  settings:
+    foreground: base
+-
+  name: Doctype
+  scope: >
+    token.storage.html,
+    token.storage.content.html
+  settings:
+    foreground: comment
+-
+  name: Comment
+  scope: token.comment.html
+  settings:
+    foreground: comment
+-
+  name: Tag name
+  scope: token.entity.name.tag
+  settings:
+    foreground: head1
+-
+  name: Attribute name
+  scope: >
+    token.entity.other.attribute-name.html,
+    token.meta.tag.assign.html
+  settings:
+    foreground: func
+-
+  name: Attribute value
+  scope:
+    token.string.html
+  settings:
+    foreground: keyword
+-
+  name: Links
+  scope:
+    token.string.html.detected-link
+  settings:
+    foreground: comment
+
+### JSON
+-
+  name: Braces
+  scope: >
+    token.begin.definition.dictionary.meta.punctuation.structure.json,
+    token.definition.dictionary.end.meta.punctuation.structure.json,
+    token.array.begin.definition.dictionary.meta.punctuation.structure.value.json,
+    token.array.definition.dictionary.end.meta.punctuation.structure.value.json
+  settings:
+    foreground: base
+-
+  name: Property Name
+  scope: >
+    token.begin.dictionary.meta.property-name.punctuation.structure.support.type.json,
+    token.dictionary.meta.property-name.structure.support.type.json,
+    token.dictionary.end.meta.property-name.punctuation.structure.support.type.json
+  settings:
+    fontStyle: bold
+    foreground: keyword
+-
+  name: Property Value (string)
+  scope: >
+    token.begin.definition.dictionary.double.meta.punctuation.quoted.string.structure.value.json,
+    token.dictionary.double.meta.quoted.string.structure.value.json,
+    token.definition.dictionary.double.end.meta.punctuation.quoted.string.structure.value.json
+  settings:
+    foreground: head2
+-
+  name: Property Value (number)
+  scope:
+    token.constant.dictionary.meta.numeric.structure.value.json,
+  settings:
+    foreground: func
+-
+  name: Property Value (language null/false)
+  scope:
+    token.constant.dictionary.language.meta.structure.value.json
+  settings:
+    foreground: func
+
+### CSS
+-
+  name: Class name
+  scope:
+    token.attribute-name.class.entity.meta.other.selector.css
+  settings:
+    fontStyle: bold
+    foreground: func
+-
+  name: Property name
+  scope: >
+    token.meta.property-list.property-name.support.type.css,
+    token.meta.property-list.property-name.css
+  settings:
+    foreground: var
+-
+  name: Property value
+  scope:
+    token.constant.meta.numeric.property-list.property-value.css
+  settings:
+    foreground: base
+-
+  name: Comment
+  scope:
+    token.block.comment.css
+  settings:
+    fontStyle: bold
+    foreground: comment
+

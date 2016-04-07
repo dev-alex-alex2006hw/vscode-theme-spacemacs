@@ -2,7 +2,7 @@
   "name": "theme-spacemacs",
   "displayName": "Spacemacs Theme",
   "description": "Spacemacs Theme",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "dzannotti",
   "engines": {
     "vscode": "^0.10.10"
