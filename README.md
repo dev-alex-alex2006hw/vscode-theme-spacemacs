@@ -51,6 +51,7 @@ license.
 The original spacemacs theme does not have a licence https://github.com/nashamri/spacemacs-theme ¯\_(ツ)_/¯
 
 ## Changelog
+0.0.7 - Fixed Marketplace links
 0.0.6 - Added support links and Marketplace icon
 0.0.5 - Added Javascript (Babel) support
 0.0.4 - Readme changes

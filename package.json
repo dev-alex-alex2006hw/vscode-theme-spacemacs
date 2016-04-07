@@ -2,7 +2,7 @@
   "name": "theme-spacemacs",
   "displayName": "Spacemacs Theme",
   "description": "Spacemacs Theme",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "dzannotti",
   "engines": {
     "vscode": "*"
@@ -10,6 +10,11 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dzannotti/vscode-theme-spacemacs/"
+  },
+  "bugs": "https://github.com/dzannotti/vscode-theme-spacemacs/issues",
   "links": {
     "getstarted": {
       "uri": "https://github.com/dzannotti/vscode-theme-spacemacs/blob/master/README.md"
