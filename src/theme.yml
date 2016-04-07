@@ -47,13 +47,13 @@
     foreground: func
 -
   name: Attribute value
-  scope:
+  scope: >
     token.string.html
   settings:
     foreground: keyword
 -
   name: Links
-  scope:
+  scope: >
     token.string.html.detected-link
   settings:
     foreground: comment
@@ -93,7 +93,7 @@
     foreground: func
 -
   name: Property Value (language null/false)
-  scope:
+  scope: >
     token.constant.dictionary.language.meta.structure.value.json
   settings:
     foreground: func
@@ -101,7 +101,7 @@
 ### CSS
 -
   name: Class name
-  scope:
+  scope: >
     token.attribute-name.class.entity.meta.other.selector.css
   settings:
     fontStyle: bold
@@ -115,15 +115,169 @@
     foreground: var
 -
   name: Property value
-  scope:
+  scope: >
     token.constant.meta.numeric.property-list.property-value.css
   settings:
     foreground: base
 -
   name: Comment
-  scope:
+  scope: >
     token.block.comment.css
   settings:
     fontStyle: bold
     foreground: comment
+
+### LESS
+-
+  name: @import
+  scope: >
+    token.at-rule.control.css.import.keyword.meta.less,
+    token.at-rule.control.css.definition.import.keyword.meta.punctuation.less
+  settings:
+    foreground: const
+-
+  name: Quoted string
+  scope: >
+    token.css.quoted.single.string.less
+    token.at-rule.control.css.definition.import.keyword.meta.punctuation.less
+  settings:
+    foreground: str
+-
+  name: Class name
+  scope: >
+    token.attribute-name.class.css.entity.other.less
+  settings:
+    fontStyle: bold
+    foreground: func
+-
+  name: Property name
+  scope: >
+    token.css.property-name.support.type.less
+  settings:
+    foreground: var
+-
+  name: Property value
+  scope: >
+    token.constant.css.numeric.less
+  settings:
+    foreground: base
+-
+  name: Comment
+  scope: >
+    token comment definition.double-slash.line.punctuation.less,
+    token.comment.double-slash.line.less,
+    token.begin.block.comment.css.definition.punctuation.less,
+    token.block.comment.css.less,
+    token.block.comment.css.definition.end.punctuation.less
+  settings:
+    fontStyle: bold
+    foreground: comment
+-
+  name: Variable
+  scope: >
+    token.other.variable.less
+  settings:
+    foreground: const
+-
+  name: String
+  scope: >
+    token.css.quoted.single.string.less,
+    token.css.double.quoted.string.less
+  settings:
+    foreground: str
+
+## JS
+-
+  name: Comment
+  scope: >
+    token.comment.line.ts.js,
+    token.block.comment.ts.js
+  settings:
+    foreground: comment
+-
+  name: Language keyword
+  scope: >
+    token.expr.meta.storage.ts.type.var.js,
+    token.block.control.decl.expr,
+    token.control.keyword.ts.js,
+    token.block.decl.expr.function.keyword.meta.new
+  settings:
+    fontStyle: bold
+    foreground: keyword
+-
+  name: Brace
+  scope: >
+    token.brace
+  settings:
+    foreground: base
+-
+  name: Variables
+  scope: >
+    token.block.decl.expr.function.meta.ts.var.var-single-variable.variable.js,
+    token.expr.meta.ts.var.var-single-variable.variable.js,
+  settings:
+    foreground: var
+-
+  name: Language values
+  scope: >
+    token.block.constant.decl.expr.function.language.meta.null,
+    token.block.boolean.constant.decl.expr.function.language.meta.ts,
+    token.block.constant.decl.expr.function.language.meta.ts.var.var-single-variable.js,
+    token.block.element.expr.meta.template.ts.var.var-single-variable.js,
+    token.element.expr.meta.template.ts.var.var-single-variable.js
+  settings:
+    foreground: const
+-
+  name: Strings
+  scope: >
+    token.block.decl.double.expr.function.meta.string,
+    token.block.decl.expr.function.meta.single.string,
+    token.double.string.ts.js.detected-link,
+    token.children.meta.open.quoted.single.string.tag.ts.tsx.js,
+    token.children.double.meta.open.quoted.string.tag.ts.tsx.js,
+    token.expr.meta.single.string.ts.var.var-single-variable.js,
+    token.double.expr.meta.string.ts.var.var-single-variable.js,
+    token.expr.meta.string.template
+  settings:
+    foreground: str
+-
+  name: Function name
+  scope: >
+    token.entity.function.meta.name.ts.js
+  settings:
+    fontStyle: bold
+    foreground: func
+-
+  name: JSX prop name
+  scope: >
+    token.attribute-name.entity.meta.open.other.tag.ts.js
+  settings:
+    foreground: func
+-
+  name: Number constant
+  scope: >
+    token.constant.numeric.ts.js,
+    token.block.constant.expr.member.meta.numeric.object,
+    token.array.block.constant.expr.literal.member.meta.numeric.object
+  settings:
+    foreground: const
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
