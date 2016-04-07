@@ -30,7 +30,9 @@ Since I tried to detail as much as possible, i decided not to generalize languag
 Send a PR or open an issue
 
 ### I noticed some colors are off
-Feel free to report the issue to investigate, sadly most of the times it's due to wrong tokenization by vscode itself
+Feel free to report the issue to investigate
+
+If JS, try to install [vscode babel](https://github.com/dzannotti/vscode-babel) extension, if not sadly most of the times it's due to wrong tokenization by vscode itself
 
 ## Licence
 The code in this repo is distributed under MIT Licence
