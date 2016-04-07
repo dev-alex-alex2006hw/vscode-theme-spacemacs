@@ -5,7 +5,7 @@ https://github.com/dzannotti/vscode-theme-spacemacs
 I **love** the way spacemacs looks, however the intellisense in vscode is better than the emacs/spacemacs one, but why leave behind the coloring?
 
 ## What does it looks like?
-![Like this](https://raw.githubusercontent.com/dzannotti/vscode-theme-spacemacs/master/screenshot.png "Screenshot")
+![Like this](https://raw.githubusercontent.com/dzannotti/vscode-theme-spacemacs/master/images/screenshot.png "Screenshot")
 
 ## Ok I'm sold how do i try it?
 You can find it on VSCode Marketplace
@@ -49,6 +49,7 @@ Spacemacs is licensed under GPL v3
 The original spacemacs theme does not have a licence https://github.com/nashamri/spacemacs-theme ¯\_(ツ)_/¯
 
 ## Changelog
+0.0.6 - Added support links and Marketplace icon
 0.0.5 - Added Javascript (Babel) support
 0.0.4 - Readme changes
 0.0.3 - Added JSON support and Refactor of theme generator
