@@ -5,7 +5,7 @@ https://github.com/dzannotti/vscode-theme-spacemacs
 I **love** the way spacemacs looks, however the intellisense in vscode is better than the emacs/spacemacs one, but why leave behind the coloring?
 
 ## What does it looks like?
-![Like this](/screenshot.png?raw=true "Screenshot")
+![Like this](https://raw.githubusercontent.com/dzannotti/vscode-theme-spacemacs/master/screenshot.png "Screenshot")
 
 ## Ok i'm sold how do i try it?
 You can find it on VSCode Marketplace
