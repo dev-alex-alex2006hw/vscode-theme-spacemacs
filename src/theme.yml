@@ -335,7 +335,8 @@
 -
   name: Function name
   scope: >
-    token.entity.function.js.meta.name.jsx
+    token.entity.function.js.meta.name.jsx,
+    token.braces.curly.function.group.js.meta.mutator.support.jsx
   settings:
     fontStyle: bold
     foreground: func
@@ -354,12 +355,23 @@
 -
   name: Prototype
   scope: >
-    token.access.js.language.meta.prototype.variable.jsx
+    token.access.js.language.meta.prototype.variable.jsx,
+    token.arrow.function.js.language.meta.prototype.variable.jsx
   settings:
     foreground: head1
-
-
-
+-
+  name: Object keys
+  scope: >
+    token.braces.constant.curly.group.js.key.meta.object.other.string.unquoted.jsx
+  settings:
+    foreground: comp
+-
+  name: Class name
+  scope: >
+    token.class.entity.js.name.jsx
+  settings:
+    fontSyle: bold
+    foreground: func
 
 
 

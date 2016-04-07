@@ -505,7 +505,7 @@
         <key>name</key>
         <string>Function name</string>
         <key>scope</key>
-        <string>token.entity.function.js.meta.name.jsx
+        <string>token.entity.function.js.meta.name.jsx, token.braces.curly.function.group.js.meta.mutator.support.jsx
 </string>
         <key>settings</key>
         <dict>
@@ -543,12 +543,38 @@
         <key>name</key>
         <string>Prototype</string>
         <key>scope</key>
-        <string>token.access.js.language.meta.prototype.variable.jsx
+        <string>token.access.js.language.meta.prototype.variable.jsx, token.arrow.function.js.language.meta.prototype.variable.jsx
 </string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#4f97d7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Object keys</string>
+        <key>scope</key>
+        <string>token.braces.constant.curly.group.js.key.meta.object.other.string.unquoted.jsx
+</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#c56ec3</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Class name</string>
+        <key>scope</key>
+        <string>token.class.entity.js.name.jsx
+</string>
+        <key>settings</key>
+        <dict>
+          <key>fontSyle</key>
+          <string>bold</string>
+          <key>foreground</key>
+          <string>#bc6ec5</string>
         </dict>
       </dict>
     </array>
